@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#banner{
+    background-repeat: repeat-x;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div >
+    <img id="#banner" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/6139fe95757635.5e9f0237cf687.png" height="300">
+</div>
+
+<div class="row">
+    <div class="col-sm-2" style="background-color:white;">
+        <div class="vertical-menu">
+            <a href="#" class="active">Home</a>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+        </div>
+    </div>
+    <div class="col-sm-10" h-100>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+        <div class="row" >
+            <div class="col-sm-6" style="background-color:lightcoral;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            <div class="col-sm-6" style="background-color:lightskyblue;">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col-sm-2" style="background-color:lightcoral;">
+                Photo 1
+            
+            </div>
+            <div class="col-sm-2" style="background-color:lightseagreen;">
+                Photo 2
+            </div>
+            <div class="col-sm-4" style="background-color:lightskyblue;">
+                Photo 3
+            </div>
+            <div class="col-sm-2" style="background-color:lightgrey;">
+                Photo 4
+            </div>
+            <div class="col-sm-2" style="background-color:lightgreen;">
+                Photo 5
+            </div>
+        </div>
+        <div class="row"  >
+            <div class="col-sm-12" style="background-color:lightgoldenrodyellow;">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+            
+        </div>
+        <div class="row" >
+            <div class="col-sm-2" style="background-color:lightcoral;">
+                Photo 1
+            
+            </div>
+            <div class="col-sm-2" style="background-color:lightseagreen;">
+                Photo 2
+            </div>
+            <div class="col-sm-4" style="background-color:lightskyblue;">
+                Photo 3
+            </div>
+            <div class="col-sm-2" style="background-color:lightgrey;">
+                Photo 4
+            </div>
+            <div class="col-sm-2" style="background-color:lightgreen;">
+                Photo 5
+            </div>
+        </div>
+    </div>
+   
+</div>
+<div style="background-color:lightpink;">
+    footer
+</div>
+</body>
+</html>
